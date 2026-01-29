@@ -16,3 +16,23 @@ def compute_risk(emotions: dict) -> tuple:
         level = "High Emotional Risk"
 
     return risk_score, level
+
+def risk_badge(score: float) -> dict:
+    if score < 30:
+        return {
+            "label": "Safe",
+            "color": "green",
+            "description": "Content is unlikely to cause emotional distress."
+        }
+    elif score < 60:
+        return {
+            "label": "Caution",
+            "color": "yellow",
+            "description": "Content may cause mild emotional discomfort."
+        }
+    else:
+        return {
+            "label": "High Emotional Risk",
+            "color": "red",
+            "description": "Content may significantly impact mental well-being."
+        }
