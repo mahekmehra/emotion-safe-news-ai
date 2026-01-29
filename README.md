@@ -1,10 +1,6 @@
 
----
-
-# 📄 ROOT `README.md` 
-
-
 # Emotion-Aware GenAI Media Guard 🧠✨
+
 
 An ethical Generative AI system that detects emotionally manipulative content, explains its psychological impact, and rewrites it into a mentally safe, neutral form — helping protect users from fear-based and anxiety-inducing media.
 
@@ -46,6 +42,7 @@ Emotion-Aware GenAI Media Guard uses NLP and Generative AI to:
 
 ## 🏗️ System Architecture
 
+```
 Frontend (React / UI)
 ↓
 FastAPI Backend
@@ -53,6 +50,7 @@ FastAPI Backend
 NLP + Emotion Models
 ↓
 GenAI (Explanation & Rewrite)
+```
 
 
 ---
@@ -83,14 +81,16 @@ GenAI (Explanation & Rewrite)
 
 ## 📁 Repository Structure
 
-- emotion-safe-news-ai/
-- ├── backend/ # FastAPI backend
-- ├── ml/ # NLP & GenAI logic
-- ├── frontend/ # React frontend (planned)
-- ├── docker/ # Docker configs (planned)
-- ├── docs/ # Architecture & diagrams
-- ├── README.md
-- └── roadmap.md
+```
+emotion-safe-news-ai/
+├── backend/ # FastAPI backend
+├── ml/ # NLP & GenAI logic
+├── frontend/ # React frontend (planned)
+├── docker/ # Docker configs (planned)
+├── docs/ # Architecture & diagrams
+├── README.md
+└── roadmap.md
+```
 
 
 ---
