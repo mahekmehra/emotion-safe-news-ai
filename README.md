@@ -3,7 +3,7 @@
 
 # 📄 ROOT `README.md` (UPDATED MAIN README)
 
-```md
+
 # Emotion-Aware GenAI Media Guard 🧠✨
 
 An ethical Generative AI system that detects emotionally manipulative content, explains its psychological impact, and rewrites it into a mentally safe, neutral form — helping protect users from fear-based and anxiety-inducing media.
