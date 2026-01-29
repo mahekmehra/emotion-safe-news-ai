@@ -99,8 +99,8 @@ emotion-safe-news-ai/
 
 - [x] Phase 0: Repository & architecture setup
 - [x] Phase 1: FastAPI backend
-- [ ] Phase 2: Explainability & mental health logic
-- [ ] Phase 3: Advanced NLP features
+- [x] Phase 2: Explainability & mental health logic
+- [x] Phase 3: Advanced NLP features
 - [ ] Phase 4: Professional frontend
 - [ ] Phase 5: UX & product polish
 - [ ] Phase 6: Dockerization
@@ -111,8 +111,17 @@ emotion-safe-news-ai/
 
 ## 🧪 Current Status
 
-**Phase 1 complete**  
-Backend APIs operational with live GenAI integration.
+**Phase 1 — Backend Core (Completed)**  
+Backend APIs are fully operational with live GenAI integration, including emotion detection, mental health risk scoring, explainable analysis, and neutral content rewriting. API endpoints are stable and documented via Swagger.
+
+**Phase 2 — Explainability & Mental Health Intelligence (Completed)**  
+Emotion-triggering language is identified and highlighted, mental health risk levels are mapped to human-readable badges, and explainable AI metadata is returned to support transparency and responsible interpretation.
+
+**Phase 3 — Advanced NLP & Scalability (Completed)**  
+Tone-conditioned GenAI rewriting, URL-based news analysis, and batch processing capabilities are implemented, enabling scalable and real-world content analysis workflows.
+
+**Next Phase**  
+Phase 4 will focus on building a professional frontend interface and integrating the backend APIs into a user-facing application.
 
 ---
 
