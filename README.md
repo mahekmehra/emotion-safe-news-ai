@@ -1,7 +1,7 @@
 
 ---
 
-# 📄 ROOT `README.md` (UPDATED MAIN README)
+# 📄 ROOT `README.md` 
 
 
 # Emotion-Aware GenAI Media Guard 🧠✨
@@ -83,14 +83,14 @@ GenAI (Explanation & Rewrite)
 
 ## 📁 Repository Structure
 
-emotion-safe-news-ai/
-├── backend/ # FastAPI backend
-├── ml/ # NLP & GenAI logic
-├── frontend/ # React frontend (planned)
-├── docker/ # Docker configs (planned)
-├── docs/ # Architecture & diagrams
-├── README.md
-└── roadmap.md
+-emotion-safe-news-ai/
+-├── backend/ # FastAPI backend
+-├── ml/ # NLP & GenAI logic
+-├── frontend/ # React frontend (planned)
+-├── docker/ # Docker configs (planned)
+-├── docs/ # Architecture & diagrams
+-├── README.md
+-└── roadmap.md
 
 
 ---
