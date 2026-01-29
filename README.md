@@ -83,11 +83,11 @@ GenAI (Explanation & Rewrite)
 
 ```
 emotion-safe-news-ai/
-├── backend/ # FastAPI backend
-├── ml/ # NLP & GenAI logic
-├── frontend/ # React frontend (planned)
-├── docker/ # Docker configs (planned)
-├── docs/ # Architecture & diagrams
+├── backend/              # FastAPI backend
+├── ml/                   # NLP & GenAI logic
+├── frontend/             # React frontend (planned)
+├── docker/               # Docker configs (planned)
+├── docs/                 # Architecture & diagrams
 ├── README.md
 └── roadmap.md
 ```

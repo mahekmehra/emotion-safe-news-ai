@@ -22,16 +22,18 @@ The backend handles:
 
 ## 🏗️ Architecture Overview
 
+```
 backend/
 ├── app/
-│ ├── api/ # API routes
-│ ├── core/ # Configuration & environment
-│ ├── schemas/ # Request / response models
-│ ├── services/ # NLP, GenAI, scoring logic
-│ └── main.py # FastAPI entry point
+│ ├── api/           # API routes
+│ ├── core/          # Configuration & environment
+│ ├── schemas/       # Request / response models
+│ ├── services/      # NLP, GenAI, scoring logic
+│ └── main.py        # FastAPI entry point
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
@@ -59,6 +61,7 @@ Analyze content for emotional manipulation and mental health impact.
   "text": "This shocking decision is creating fear and panic.",
   "tone": "reassuring"
 }
+```
 
 #### Response Body
 ```json
@@ -69,25 +72,28 @@ Analyze content for emotional manipulation and mental health impact.
   "explanation": "This content uses fear-inducing language...",
   "rewritten_text": "Officials announced a decision and experts advise..."
 }
+```
 
 ---
 
 ## 🧪 Running the Backend Locally
 
 ### 1️⃣ Activate virtual environment
-- venv/Scripts/activate
+``` venv/Scripts/activate ```
 
 ### 2️⃣ Install dependencies
-- pip install -r requirements.txt
-- python -m spacy download en_core_web_sm
+```
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+```
 
 ### 3️⃣ Set environment variables
-- setx GEMINI_API_KEY "your_api_key_here"
+``` setx GEMINI_API_KEY "your_api_key_here" ```
 
 Restart the terminal after this step.
 
 ### 4️⃣ Run the server
-- uvicorn app.main:app --reload
+``` uvicorn app.main:app --reload ```
 
 
 
