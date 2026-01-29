@@ -20,11 +20,28 @@ Detected emotions:
 
 
 def rewrite(text: str, tone: str) -> str:
-    prompt = f"""
-Rewrite the following content in a {tone} tone.
-Ensure it is mentally safe, calm, and factual.
+    try:
+        tone_instruction = {
+            "neutral": "Rewrite in a neutral, factual, and calm tone.",
+            "educational": "Rewrite in an educational tone that explains context clearly without emotional language.",
+            "reassuring": "Rewrite in a reassuring tone that reduces anxiety while remaining factual."
+        }.get(tone, "Rewrite in a neutral and calm tone.")
+
+        prompt = f"""
+{tone_instruction}
+
+Avoid fear-based or sensational language.
+Do not minimize facts, but present them responsibly.
 
 Text:
 {text}
 """
-    return model.generate_content(prompt).text.strip()
+        response = model.generate_content(prompt)
+        return response.text.strip()
+
+    except Exception:
+        return (
+            "This content discusses an event based on available information. "
+            "Readers are encouraged to review verified sources calmly."
+        )
+
